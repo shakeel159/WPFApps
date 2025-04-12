@@ -8,7 +8,7 @@
         xmlns:TodaysControls="clr-namespace:WeatherApp.View.UserControls"
         xmlns:BottomsControls="clr-namespace:WeatherApp.View.UserControls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="400" Width="400">
     <Grid>
         
         <Grid.RowDefinitions>
@@ -23,5 +23,8 @@
         <TodaysControls:TodaysWeather Grid.Row="1"/>
         <!-- Tomarrow, yesterday, and todays forcast info bar -->
         <BottomsControls:BottomControl Grid.Row="2"/>
+        <Border BorderBrush="Gray" BorderThickness="2,2,2,2" Grid.Row="3">
+            
+        </Border>
     </Grid>
 </Window>

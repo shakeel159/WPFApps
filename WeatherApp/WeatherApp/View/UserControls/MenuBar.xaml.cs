@@ -24,5 +24,15 @@ namespace WeatherApp.View.UserControls
         {
             InitializeComponent();
         }
+        private void StateSelectedChange(object sender, SelectionChangedEventArgs e)
+        {
+            var selectedItem = StateSelected.SelectedItem as ComboBoxItem;
+            if(selectedItem != null)
+            {
+                //inisitate change of information on weather app based on state selected
+                string state = selectedItem.Content.ToString();
+                MessageBox.Show($"You selected: {state}");
+            }
+        }
     }
 }

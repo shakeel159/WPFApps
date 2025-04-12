@@ -23,6 +23,8 @@ namespace WeatherApp.View.UserControls
         public TodaysWeather()
         {
             InitializeComponent();
+            int currentTemp = 21;
+            tbCurrentTemp.Text = currentTemp.ToString();
         }
     }
 }

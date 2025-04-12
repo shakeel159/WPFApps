@@ -17,10 +17,15 @@
                 <ColumnDefinition Width="30 *"/>
                 <ColumnDefinition Width="60 *"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Name="tbTitle" Text="Weather APP" Grid.Column="1" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+            <TextBlock Name="tbCurrentTemp" Text="45" Grid.Column="1" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
             <Grid Grid.Column="0">
                 <InfoTab:InfoTexts/>
             </Grid>
+        </Grid>
+        <Grid Grid.Row="1">
+            <Border BorderBrush="Gray" BorderThickness="0,0,0,2">
+                
+            </Border>
         </Grid>
     </Grid>
 </UserControl>
