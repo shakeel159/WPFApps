@@ -1,0 +1,22 @@
+# Build folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+
+# Environment files
+.env
+
+# Visual Studio
+.vscode/
+*.dbmdl
+*.log
+*.vspscc
+*.vssscc
+
+# Others
+*.DS_Store
+*.exe
+*.dll

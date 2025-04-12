@@ -28,3 +28,11 @@ E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\Us
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\BottomControl.baml
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\InfoTexts.g.cs
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\InfoTexts.baml
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\.env
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\DotNetEnv.dll
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\Sprache.dll
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\WeatherApp.csproj.AssemblyReference.cache
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\WeatherApp.csproj.Up2Date
