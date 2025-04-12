@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|e:\\webdevprojects\\wpfapps\\weatherapp\\weatherapp\\view\\usercontrols\\bottomcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\view\\usercontrols\\bottomcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|e:\\webdevprojects\\wpfapps\\weatherapp\\weatherapp\\view\\usercontrols\\todaysweather.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\view\\usercontrols\\todaysweather.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|e:\\webdevprojects\\wpfapps\\weatherapp\\weatherapp\\view\\usercontrols\\infotexts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\view\\usercontrols\\infotexts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|e:\\webdevprojects\\wpfapps\\weatherapp\\weatherapp\\view\\usercontrols\\infotexts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\view\\usercontrols\\infotexts.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|e:\\webdevprojects\\wpfapps\\weatherapp\\weatherapp\\view\\usercontrols\\todaysweather.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\view\\usercontrols\\todaysweather.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|e:\\webdevprojects\\wpfapps\\weatherapp\\weatherapp\\view\\usercontrols\\bottomcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\view\\usercontrols\\bottomcontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|e:\\webdevprojects\\wpfapps\\weatherapp\\weatherapp\\view\\usercontrols\\menubar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\view\\usercontrols\\menubar.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|e:\\webdevprojects\\wpfapps\\weatherapp\\weatherapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{F7D5FF07-9E38-4568-918C-0AE2A877D44C}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -18,12 +46,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{757affbd-aba2-4a34-a9d0-98e3035e33ef}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{757affbd-aba2-4a34-a9d0-98e3035e33ef}"
@@ -34,7 +58,94 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BottomControl.xaml.cs",
+              "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\BottomControl.xaml.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\View\\UserControls\\BottomControl.xaml.cs",
+              "ToolTip": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\BottomControl.xaml.cs",
+              "RelativeToolTip": "WeatherApp\\View\\UserControls\\BottomControl.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T00:14:11.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TodaysWeather.xaml.cs",
+              "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\TodaysWeather.xaml.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\View\\UserControls\\TodaysWeather.xaml.cs",
+              "ToolTip": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\TodaysWeather.xaml.cs",
+              "RelativeToolTip": "WeatherApp\\View\\UserControls\\TodaysWeather.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T00:30:17.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InfoTexts.xaml.cs",
+              "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\InfoTexts.xaml.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\View\\UserControls\\InfoTexts.xaml.cs",
+              "ToolTip": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\InfoTexts.xaml.cs",
+              "RelativeToolTip": "WeatherApp\\View\\UserControls\\InfoTexts.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T00:28:18.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InfoTexts.xaml",
+              "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\InfoTexts.xaml",
+              "RelativeDocumentMoniker": "WeatherApp\\View\\UserControls\\InfoTexts.xaml",
+              "ToolTip": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\InfoTexts.xaml",
+              "RelativeToolTip": "WeatherApp\\View\\UserControls\\InfoTexts.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T00:27:49.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BottomControl.xaml",
+              "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\BottomControl.xaml",
+              "RelativeDocumentMoniker": "WeatherApp\\View\\UserControls\\BottomControl.xaml",
+              "ToolTip": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\BottomControl.xaml",
+              "RelativeToolTip": "WeatherApp\\View\\UserControls\\BottomControl.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T00:14:05.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodaysWeather.xaml",
+              "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\TodaysWeather.xaml",
+              "RelativeDocumentMoniker": "WeatherApp\\View\\UserControls\\TodaysWeather.xaml",
+              "ToolTip": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\TodaysWeather.xaml",
+              "RelativeToolTip": "WeatherApp\\View\\UserControls\\TodaysWeather.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T23:53:12.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuBar.xaml",
+              "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\MenuBar.xaml",
+              "RelativeDocumentMoniker": "WeatherApp\\View\\UserControls\\MenuBar.xaml",
+              "ToolTip": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\View\\UserControls\\MenuBar.xaml",
+              "RelativeToolTip": "WeatherApp\\View\\UserControls\\MenuBar.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-11T23:41:40.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\MainWindow.xaml",
               "RelativeDocumentMoniker": "WeatherApp\\MainWindow.xaml",
@@ -46,13 +157,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "WeatherApp\\MainWindow.xaml.cs",
               "ToolTip": "E:\\WebDevProjects\\WPFApps\\WeatherApp\\WeatherApp\\MainWindow.xaml.cs",
               "RelativeToolTip": "WeatherApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T22:21:33.036Z",
               "EditorCaption": ""

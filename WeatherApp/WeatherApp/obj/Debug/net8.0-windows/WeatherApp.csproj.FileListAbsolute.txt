@@ -18,3 +18,13 @@ E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\refint\
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\WeatherApp.pdb
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\WeatherApp.genruntimeconfig.cache
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\ref\WeatherApp.dll
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\WeatherApp.sourcelink.json
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\MenuBar.g.cs
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\MenuBar.baml
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\TodaysWeather.g.cs
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\TodaysWeather.baml
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\BottomControl.g.cs
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\BottomControl.baml
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\InfoTexts.g.cs
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\View\UserControls\InfoTexts.baml

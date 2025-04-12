@@ -4,19 +4,24 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WeatherApp"
+        xmlns:UserControls="clr-namespace:WeatherApp.View.UserControls"
+        xmlns:TodaysControls="clr-namespace:WeatherApp.View.UserControls"
+        xmlns:BottomsControls="clr-namespace:WeatherApp.View.UserControls"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        
         <Grid.RowDefinitions>
-            <RowDefinition Height="40"/>
+            <RowDefinition Height="20"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition Height="20"/>
         </Grid.RowDefinitions>
-
-        <TextBlock Name="tbTitle" Text="Weather APP" Grid.Row="1" FontSize="50" VerticalAlignment="Top" HorizontalAlignment="Center"/>
-        <TextBlock Name="tbDate" Text="Todays Date:" Grid.Row="1" FontSize="20"/>
-        <TextBlock Name="tbTemp" Text="Todays Temp:" Grid.Row="1" FontSize="20"/>
+        <!-- Menu bar -->
+        <UserControls:MenuBar Grid.Row="0"/>
+        <!-- Todays info bar -->
+        <TodaysControls:TodaysWeather Grid.Row="1"/>
+        <!-- Tomarrow, yesterday, and todays forcast info bar -->
+        <BottomsControls:BottomControl Grid.Row="2"/>
     </Grid>
 </Window>

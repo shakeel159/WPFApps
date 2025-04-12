@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\App.xaml
-11407045341
+51950684736
 
-4-1645301595
+81896357887
 198-211836927
-MainWindow.xaml;
+MainWindow.xaml;View\UserControls\BottomControl.xaml;View\UserControls\InfoTexts.xaml;View\UserControls\MenuBar.xaml;View\UserControls\TodaysWeather.xaml;
 
 False
 

@@ -8,9 +8,6 @@ namespace WeatherApp
         public MainWindow()
         {
             InitializeComponent();
-
-            string formattedDate = DateTime.Today.ToString("yyyy-MM-dd");
-            tbDate.Text = "Todays Date: " + formattedDate;
         }
     }
 }
