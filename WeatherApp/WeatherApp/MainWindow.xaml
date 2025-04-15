@@ -20,7 +20,7 @@
         <!-- Menu bar -->
         <UserControls:MenuBar Grid.Row="0"/>
         <!-- Todays info bar -->
-        <TodaysControls:TodaysWeather Grid.Row="1"/>
+        <TodaysControls:TodaysWeather x:Name="TodaysWeatherControl" Grid.Row="1"/>
         <!-- Tomarrow, yesterday, and todays forcast info bar -->
         <BottomsControls:BottomControl Grid.Row="2"/>
         <Border BorderBrush="Gray" BorderThickness="2,2,2,2" Grid.Row="3">

@@ -20,7 +20,7 @@ namespace WeatherApp
             Env.Load();
 
             string apiKey = Env.GetString("WEATHER_API_KEY");
-
+            ApiHelper.InitializeClient();
             // Use the API key as needed
             Console.WriteLine($"Loaded API Key: {apiKey}");
         }

@@ -36,3 +36,6 @@ E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\Microso
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\Sprache.dll
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\WeatherApp.csproj.AssemblyReference.cache
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\obj\Debug\net8.0-windows\WeatherApp.csproj.Up2Date
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\System.Net.Http.Formatting.dll
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\bin\Debug\net8.0-windows\Newtonsoft.Json.Bson.dll
