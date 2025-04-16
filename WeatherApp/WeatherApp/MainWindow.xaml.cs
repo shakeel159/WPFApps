@@ -1,5 +1,6 @@
 ﻿using DotNetEnv;
 using System.Windows;
+using WeatherApp.View.UserControls;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace WeatherApp
@@ -9,6 +10,7 @@ namespace WeatherApp
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }

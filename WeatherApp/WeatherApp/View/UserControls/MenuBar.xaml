@@ -30,9 +30,9 @@
               VerticalAlignment="Center"
               HorizontalAlignment="Right"
               Margin="0,0,10,0">
-                <ComboBoxItem Content="Chicago"/>
-                <ComboBoxItem Content="California" />
-                <ComboBoxItem Content="New York" />
+                <ComboBoxItem Content="Chicago" Tag="41.8781,-87.6298"/>
+                <ComboBoxItem Content="Los Angeles" Tag="34.0522,-118.2437"/>
+                <ComboBoxItem Content="New York" Tag="40.7128,-74.0060"/>
             </ComboBox>
         </Grid>
     </Grid>

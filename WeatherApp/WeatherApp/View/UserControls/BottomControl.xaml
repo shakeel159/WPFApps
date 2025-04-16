@@ -18,19 +18,18 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <Border BorderBrush="Gray" BorderThickness="0,0,2,0">
-            <TextBlock Grid.Column="0" Text=" Yesterday" TextAlignment="Center" FontSize="20"/>
+            <TextBlock Grid.Column="0" Text=" Today" TextAlignment="Center" FontSize="20"/>
         </Border>
         <Border BorderBrush="Gray" BorderThickness="0,0,2,0" Grid.Column="0" Grid.Row="1">
-            <InfoTab:InfoTexts Grid.Column="0" Grid.Row="1"/>
         </Border>
-            <InfoTab:InfoTexts Grid.Column="0" Grid.Row="1"/>
+        <InfoTab:InfoTexts x:Name="infoControl_Today" Latitude="41.8781" Longitude="-87.6298" RequestedDate="" Grid.Column="0" Grid.Row="1"/>
         <Border BorderBrush="Gray" BorderThickness="0,0,2,0" Grid.Column="1" Grid.Row="0">
-            <TextBlock Grid.Column="1" Text=" Today" TextAlignment="Center" FontSize="20"/>
+            <TextBlock Grid.Column="1" Text=" Tomorrow" TextAlignment="Center" FontSize="20"/>
         </Border>
         <Border BorderBrush="Gray" BorderThickness="0,0,2,0" Grid.Column="1" Grid.Row="1">
-            <InfoTab:InfoTexts Grid.Column="1" Grid.Row="1"/>
+            <InfoTab:InfoTexts x:Name="infoControl_Tomorrow" Latitude="41.8781" Longitude="-87.6298" RequestedDate="" Grid.Column="1" Grid.Row="1"/>
         </Border>
-        <TextBlock Grid.Column="2" Text=" Tomorrow" TextAlignment="Center" FontSize="20"/>
-        <InfoTab:InfoTexts Grid.Column="2" Grid.Row="1"/>
+        <TextBlock Grid.Column="2" Text=" DayAFter" TextAlignment="Center" FontSize="20"/>
+        <InfoTab:InfoTexts x:Name="infoControl_DayAfter" Latitude="41.8781" Longitude="-87.6298" RequestedDate="" Grid.Column="2" Grid.Row="1"/>
     </Grid>
 </UserControl>

@@ -22,7 +22,6 @@ namespace WeatherApp
 
             // Log the API key loading part
             string apiKey = Environment.GetEnvironmentVariable("WEATHER_API_KEY");
-            Console.WriteLine($"Using API Key: {apiKey}");
         }
     }
 }

@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR
 E:\WebDevProjects\WPFApps\WeatherApp\WeatherApp\App.xaml
 51950684736
 
-132022855052
+14-1335064590
 2061812298010
 MainWindow.xaml;View\UserControls\BottomControl.xaml;View\UserControls\InfoTexts.xaml;View\UserControls\MenuBar.xaml;View\UserControls\TodaysWeather.xaml;
 
-False
+True
 

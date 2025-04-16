@@ -14,50 +14,90 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Newtonsoft.Json.Linq;
-using System.Net.Http;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace WeatherApp.View.UserControls
 {
-    /// <summary>
-    /// Interaction logic for InfoTexts.xaml
-    /// </summary>
     public partial class InfoTexts : UserControl
     {
+        // A Func to dynamically control what kind of weather data to load
+        public Func<InfoTexts, Task<(string tempText, string lowWingText, string highWindText)>> LoadStrategy { get; set; }
+
+        public static readonly DependencyProperty LatitudeProperty =
+            DependencyProperty.Register("Latitude", typeof(double), typeof(InfoTexts),
+                new PropertyMetadata(41.8781, OnLocationChanged));
+
+        public static readonly DependencyProperty LongitudeProperty =
+            DependencyProperty.Register("Longitude", typeof(double), typeof(InfoTexts),
+                new PropertyMetadata(-87.6298, OnLocationChanged));
+
+        public static readonly DependencyProperty RequestedDateProperty =
+            DependencyProperty.Register("RequestedDate", typeof(DateTime), typeof(InfoTexts),
+                new PropertyMetadata(DateTime.Today, OnLocationChanged));
+
+        public double Latitude
+        {
+            get => (double)GetValue(LatitudeProperty);
+            set => SetValue(LatitudeProperty, value);
+        }
+
+        public double Longitude
+        {
+            get => (double)GetValue(LongitudeProperty);
+            set => SetValue(LongitudeProperty, value);
+        }
+
+        public DateTime RequestedDate
+        {
+            get => (DateTime)GetValue(RequestedDateProperty);
+            set => SetValue(RequestedDateProperty, value);
+        }
+
         public InfoTexts()
         {
             InitializeComponent();
-            string formattedDate = DateTime.Today.ToString("yyyy-MM-dd");
-            tbDate.Text = "" + formattedDate;
+            Loaded += InfoTexts_Loaded;
+        }
 
-            // Start async weather fetch
+        private void InfoTexts_Loaded(object sender, RoutedEventArgs e)
+        {
             _ = LoadWeatherAsync();
+        }
 
+        private static void OnLocationChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+        {
+            var control = d as InfoTexts;
+            _ = control?.LoadWeatherAsync();  // Refresh if any property changes
         }
         private async Task LoadWeatherAsync()
         {
             try
             {
-                var weatherService = new WeaherDataCalls();
-                // Example coordinates: Chicago
-                double lat = 41.8781;
-                double lon = -87.6298;
+                tbDate.Text = RequestedDate.ToString("yyyy-MM-dd");
 
-                var weather = await weatherService.GetWeatherAsync(lat, lon);
-                if (weather != null)
+                if (LoadStrategy != null)
                 {
-                    tbTemp.Text = $"Temp: {weather.main.temp}°C";
-                    tbWind.Text = $"Wind: {weather.wind.speed} m/s";
+                    var (temp, Low, High) = await LoadStrategy(this);
+                    tbTemp.Text = temp;
+                    tbLow.Text = Low;
+                    tbHigh.Text = High;
                 }
-
+                else
+                {
+                    tbTemp.Text = "Temp: No strategy";
+                    tbLow.Text = "Low: No strategy";
+                    tbHigh.Text = "High: No strategy";
+                }
             }
-            catch (Exception ex)
+            catch
             {
+                tbDate.Text = "Date: Error";
                 tbTemp.Text = "Temp: Error";
-                tbWind.Text = "Wind: Error";
-                Console.WriteLine("Error fetching weather: " + ex.Message);
+                tbLow.Text = "Wind: Error";
+                tbHigh.Text = "High: Error";
             }
         }
+       
     }
 }
