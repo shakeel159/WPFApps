@@ -7,9 +7,10 @@
  - Implemented API calls to retrieve dynamic current and future data.
  - Viewing forecast data from parsing and filtering the API response with LINQ.
  - separation between UI (View) and logic (code-behind or services).
- - 
-Tech Stack: C#, .NET / WPF, OpenWeather API, XAML, LINQ.
+ -
+  Tech Stack: C#, .NET / WPF, OpenWeather API, XAML, LINQ.
 
 ##Current Version: Prototype
-   ![VersionOne](https://github.com/user-attachments/assets/6de8ce82-88ea-4aae-bb44-add98a0b686b)
+
+![VersionOne](https://github.com/user-attachments/assets/6de8ce82-88ea-4aae-bb44-add98a0b686b)
 
