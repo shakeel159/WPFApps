@@ -22,7 +22,10 @@ namespace WeatherApp.View.UserControls
     public partial class InfoTexts : UserControl
     {
         // A Func to dynamically control what kind of weather data to load
-        public Func<InfoTexts, Task<(string tempText, string lowWingText, string highWindText)>> LoadStrategy { get; set; }
+        public Func<InfoTexts, Task<(string tempText, string lowWingText, string highWindText)>> LoadStrategy { get; set; } 
+        // Func<>(stores ref to function) ,
+        // //Takes one argument: an InfoTexts object. Returns a Task<...> which means it's asynchronous
+        //he control (InfoTexts) can be told:“Here’s how you should load your data when needed.”
 
         public static readonly DependencyProperty LatitudeProperty =
             DependencyProperty.Register("Latitude", typeof(double), typeof(InfoTexts),
@@ -76,7 +79,7 @@ namespace WeatherApp.View.UserControls
             {
                 tbDate.Text = RequestedDate.ToString("yyyy-MM-dd");
 
-                if (LoadStrategy != null)
+                if (LoadStrategy != null) // returns the 3 strings for this method to use
                 {
                     var (temp, Low, High) = await LoadStrategy(this);
                     tbTemp.Text = temp;

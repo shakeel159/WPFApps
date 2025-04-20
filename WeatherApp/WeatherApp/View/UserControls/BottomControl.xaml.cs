@@ -28,7 +28,8 @@ namespace WeatherApp.View.UserControls
             infoControl_Tomorrow.RequestedDate = DateTime.Today.AddDays(1);
             infoControl_DayAfter.RequestedDate = DateTime.Today.AddDays(2);
 
-            infoControl_Today.LoadStrategy = control => LoadTodayWeatherAsync(control, 0);
+            //infoControl called from OnfoTextst deciding how to display your data.
+            infoControl_Today.LoadStrategy = control => LoadTodayWeatherAsync(control, 0); //control => a way to assign function to xaml 
             infoControl_Tomorrow.LoadStrategy = control => LoadTomorrowWeatherAsync(control, 1);
             infoControl_DayAfter.LoadStrategy = control => LoadTomorrowWeatherAsync(control, 2);
         }

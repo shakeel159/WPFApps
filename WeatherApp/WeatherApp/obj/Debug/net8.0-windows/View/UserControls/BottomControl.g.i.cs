@@ -77,7 +77,7 @@ namespace WeatherApp.View.UserControls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/WeatherApp;V1.0.0.0;component/view/usercontrols/bottomcontrol.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/WeatherApp;component/view/usercontrols/bottomcontrol.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\UserControls\BottomControl.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

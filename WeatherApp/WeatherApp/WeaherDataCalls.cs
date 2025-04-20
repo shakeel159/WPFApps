@@ -9,6 +9,7 @@ using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using System.Windows.Documents;
 
 namespace WeatherApp
 {
@@ -43,8 +44,8 @@ namespace WeatherApp
             var forecast = await GetForcastModelAsync(lat, lon);
 
             var tempsForDate = forecast.list
-            .Where(item => DateTime.Parse(item.dt_txt).Date == date.Date)
-            .Select(item => item.main.temp)
+            .Where(item => DateTime.Parse(item.dt_txt).Date == date.Date)//Filters the items in the list based on date
+            .Select(item => item.main.temp) //After filtering, this takes each matching item and selects only the temperature 
             .ToList();
 
             if (!tempsForDate.Any())
@@ -59,7 +60,7 @@ namespace WeatherApp
             var targetDate = date.Date;
 
             var tempsOnDate = forecast.list
-                .Where(item => DateTime.Parse(item.dt_txt).Date == targetDate)
+                .Where(item => DateTime.Parse(item.dt_txt).Date == targetDate) // Filters the forecast list to keep only the entries where the date matches the targetDate.
                 .Select(item => item.main.temp) // or .temp if temp_min not available
                 .ToList();
 
